@@ -1,0 +1,22 @@
+.headers {
+  font-family: "Oswald", sans-serif;
+  margin: 0px 25px;
+}
+
+p {
+  font-family: "EB Garamond", serif;
+  font-size:18px;
+  text-wrap:inherit;
+  margin-right:25px;
+  text-align:justify;
+}
+
+section {
+  display: flex;
+  text-wrap: inherit;
+}
+
+img {
+  float:left;
+  margin: 0 25px;
+}
