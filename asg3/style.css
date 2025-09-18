@@ -24,3 +24,16 @@ img {
   float:left;
   margin: 0 25px;
 }
+
+.asg3 .header{
+  font-family:"Bebas Neue";
+}
+
+.asg3 {
+  font-family:"Montserrat";
+}
+
+.questions {
+  display:flex;
+  flex-direction:column;
+}
