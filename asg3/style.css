@@ -16,12 +16,11 @@ section {
   text-wrap: inherit;
 }
 
+.info {
+  flex-direction: column;
+}
+
 img {
   float:left;
   margin: 0 25px;
-}
-
-h5 {
-  font-family: "Oswald", sans-serif;
-  margin: 0px 25px;
 }
