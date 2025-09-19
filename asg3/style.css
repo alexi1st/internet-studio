@@ -37,3 +37,7 @@ img {
   display:flex;
   flex-direction:column;
 }
+
+section h2{
+  font-family:"Oswald";
+}
