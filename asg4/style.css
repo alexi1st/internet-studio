@@ -1,0 +1,25 @@
+body {
+ margin:30px;
+}
+
+h1, h2 {
+    font-family:"Freeman", sans-serif;
+}
+
+p, li, tr {
+    font-family:"Poppins";
+}
+
+tr, th, td{
+    border:1px solid black;
+    padding:5px;
+}
+
+.info {
+    display:flex;
+}
+
+img {
+    margin-right:20px;
+}
+
