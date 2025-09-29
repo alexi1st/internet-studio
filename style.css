@@ -1,0 +1,112 @@
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size:5.5em;
+    color:#c3895a;
+    text-shadow: 1px 1px 2px #825b638c;
+    margin: 0 0 0 6px;
+    transform: translateY(-5px);
+}
+
+.header {
+    position:relative;
+    height:100px;
+    background-image: url(img/lace.png);
+    background-size:300px;
+    background-position-y: bottom;
+    background-repeat:repeat-x;
+    margin:0px;
+    padding: 15px 25px 25px 25px;
+    display:flex;
+    justify-items: baseline;
+    flex-direction: row;
+}
+
+body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/fishnets-and-hearts.png");
+    background-blend-mode: multiply;
+    background-size:550px;
+    background-color:#d0ddc1;
+    background-repeat: repeat;
+    margin:0px;
+    display:flex;
+    flex-direction: column;
+}
+
+.content {
+    margin: 30px 45px;
+    display:flex;
+}
+
+.start {
+    display:flex;
+    flex-direction: column;
+}
+
+#me {
+    border-radius:100px;
+    box-shadow: 1px 1px 2px gray;
+    margin:7px;
+}
+
+.about {
+    display:flex;
+    background-color:rgb(237, 233, 230);
+    padding:10px 30px 10px 20px;
+    border-radius:20px;
+    box-shadow: 1px 1px 2px gray;
+    margin: 20px;
+}
+
+h2 {
+    font-family: 'Sacramento', cursive;
+    font-size:3em;
+    color:#d9999a;
+    text-shadow: 1px 1px 2px #9380848c;
+    margin:5px 5px 0 5px;
+}
+
+.text {
+    display:flex;
+    flex-direction: column;
+    margin-left:10px;
+}
+
+p {
+    margin-top:0;
+    font-family: "Instrument Serif", 'Times New Roman', Times, serif;
+    font-size:18px;
+    color:#44362a;
+}
+
+.assignments {
+    background-color: rgb(237, 233, 230);
+    padding:10px 20px;
+    border-radius:20px;
+    box-shadow: 1px 1px 2px gray;
+    width:fit-content;
+    height:fit-content;
+    margin:20px;
+}
+ul {
+    margin-top:0;
+}
+
+li {
+    font-family: 'Instrument Serif', 'Times New Roman', serif;
+    font-weight:400;
+    font-size: 1.25em;
+    margin-top:0;
+    list-style-image: url("img/bow-point.png");
+}
+
+li:hover {
+    background-color:rgb(204, 193, 186);
+    transform: translateX(5px);
+    transition: transform 0.2s ease;
+}
+
+.content img {
+    border-radius:20px;
+    box-shadow: 1px 1px 2px gray;
+    margin:20px;
+}
