@@ -1,0 +1,89 @@
+html {
+   background-image: url('img/skulls.png');
+   background-repeat:repeat;
+   background-size:400px;
+   background-color:rgb(77, 85, 55); 
+}
+
+body {
+    margin:35px;
+}
+
+h1 {
+    font-family:'Fjalla One','Roboto', 'Impact', sans-serif;
+    font-size:3.5em;
+    letter-spacing: 2px;
+    margin-bottom:5px;
+    color:rgb(243, 237, 185);
+    text-shadow: 1px 2px 3px rgb(43, 56, 43);
+}
+
+/* first summary */
+
+.summary {
+    margin: 25px 15px;
+    text-shadow:2px 1px 9px bisque;
+}
+
+h2 {
+    font-family: 'Fjalla One', 'Roboto', 'Impact', sans-serif;
+    font-size:2em;
+    margin: 5px 0 10px 0px;
+    color:rgb(30, 40, 5);
+    text-shadow:2px 1px 15px bisque;
+}
+
+
+/* styles for the discussion summary paragrpah */
+.og-summary{
+    font-size:1.1em;
+    color:rgb(17, 20, 2);
+    margin-top:4px;
+    font-weight:900;
+}
+
+img {
+    float:right;
+    text-wrap:wrap;
+    padding: 0 0 10px 10px;
+}
+
+/* six thinking hats explanations */
+h3 {
+    font-family:'Fjalla One', 'Roboto', 'Impact', sans-serif;
+    font-size:1.45em;
+    letter-spacing:1px;
+    margin-top:15px;
+    margin-bottom:10px;
+    font-style: italic;
+    color:rgb(229, 206, 146);
+    text-shadow: 2px 2px rgb(154, 107, 53), 4px 4px 3px rgb(33, 50, 33);
+}
+
+div {
+    margin: 0 45px; /*indenting the hats explanations for a bit of hierarchy*/
+}
+
+div p {
+    font-family: 'Libre Baskerville', 'Times New Roman', serif;
+    margin-top:2px;
+    line-height:22px;
+    font-size:15px;
+    font-style:italic;
+    letter-spacing:0.07em;
+    color:rgb(245, 228, 208);
+    text-shadow: 1px 2px 2px rgb(43, 56, 43);
+    font-weight:400;
+}
+
+
+/*conclusions stuff */
+
+.conclusion {
+    margin:25px 15px;
+    text-shadow: 1px 1px 9px rgb(180, 235, 138);
+}
+
+.conclusion h2{
+    text-shadow:1px 1px 15px rgb(180, 235, 138);
+}
