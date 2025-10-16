@@ -1,0 +1,122 @@
+/* bbh-sans-bogle-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'BBH Sans Bogle';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/bbh-sans-bogle-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* afacad-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Afacad';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/afacad-v3-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* afacad-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Afacad';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/afacad-v3-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+    margin: 20px 30px;
+    background-image: url(img/black-thread-light.png);
+    background-repeat:repeat;
+    background-size:100px;
+    background-color: rgb(154, 171, 181);
+}
+
+h1 {
+    font-size:3em;
+    margin: 5px 0 5px 0;
+}
+
+h1, h2, h3 {
+    font-family: 'BBH Sans Bogle', 'Impact', sans-serif;
+    letter-spacing:2px;
+    margin: 5px 0 5px 0;
+}
+
+p {
+    font-family: 'Afacad', 'Arial', 'Roboto', sans-serif;
+}
+
+aside {
+    background-color:palevioletred;
+    border-radius:10px;
+    width:25%;
+    float:right;
+    margin:10px;
+    padding:15px;
+}
+
+aside img {
+    float:left;
+    margin: 0 20px 10px 0;
+}
+
+.pic {
+    float:left;
+    margin: 0 20px 20px 0;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    letter-spacing:5px;
+}
+
+/*===================================
+            wireframes.html
+===================================== */
+
+.wf h1 {
+    font-family: 'BBH Sans Hegarty', 'Impact', 'Arial', sans-serif;
+    font-size: 3em;
+    color:rgb(118, 85, 104);
+    letter-spacing:5px;
+}
+
+.wf h2 {
+    font-family: 'BBH Sans Hegarty', 'Impact', 'Arial', sans-serif;
+}
+
+.wf h3 {
+    font-family: 'BBH Sans Hegarty', 'Impact', 'Arial', sans-serif;
+    font-weight:200;
+    color:rgb(84, 92, 105);
+    letter-spacing:3px;
+}
+.wf p {
+    font-family: 'Quicksand', 'Roboto', sans-serif;
+}
+
+.questions {
+    margin: 20px 30px;
+}
+
+.wireframes h3 {
+    font-size:2em;
+}
+
+.wireframes {
+    margin: 20px;
+}
+
+.wireframes h1 {
+    margin:auto;
+}
+
+section h3 {
+ margin:auto;
+}
+
+img {
+    margin: 0 auto;
+    display:box;
+}
