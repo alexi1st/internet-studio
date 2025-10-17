@@ -134,6 +134,7 @@ aside a {
 .wf p {
     font-family: 'Quicksand', 'Roboto', sans-serif;
     color:rgb(59, 41, 77);
+    font-size: 18px;
 }
 
 .questions {
