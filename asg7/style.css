@@ -24,41 +24,64 @@
   src: url('fonts/afacad-v3-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+/*=================================
+        political campaign
+===================================*/
+
 body {
     margin: 20px 30px;
     background-image: url(img/black-thread-light.png);
     background-repeat:repeat;
-    background-size:100px;
-    background-color: rgb(154, 171, 181);
+    background-size:50px;
+    background-color: rgb(159, 106, 106);
 }
 
-h1 {
-    font-size:3em;
+.campaign h1 {
+    font-size:4em;
     margin: 5px 0 5px 0;
+    letter-spacing: 6px;
+    color: rgb(72, 35, 39);
 }
 
 h1, h2, h3 {
     font-family: 'BBH Sans Bogle', 'Impact', sans-serif;
-    letter-spacing:2px;
     margin: 5px 0 5px 0;
+}
+
+.campaign h2 {
+    font-size:2em;
+    color: rgb(255, 210, 173);
+}
+
+.campaign h3 {
+    font-size:2em;
+    letter-spacing: 10px;
 }
 
 p {
     font-family: 'Afacad', 'Arial', 'Roboto', sans-serif;
+    color: rgb(96, 11, 42);
+    font-size:1.4em;
 }
 
+/*this is an aside */
 aside {
-    background-color:palevioletred;
+    background-color:rgb(90, 48, 48);
     border-radius:10px;
     width:25%;
     float:right;
     margin:10px;
-    padding:15px;
+    padding:20px;
 }
 
 aside img {
     float:left;
     margin: 0 20px 10px 0;
+}
+
+aside p {
+    color:rgb(255, 205, 195);
+    font-size:15px;
 }
 
 .pic {
@@ -71,29 +94,46 @@ h2 {
     letter-spacing:5px;
 }
 
+a {
+    color:rgb(22, 22, 95);
+}
+
+aside a {
+    color: rgb(106, 106, 230);
+}
+
+
 /*===================================
             wireframes.html
 ===================================== */
 
+.wf {
+    background-image: url(img/flowers.png);
+    background-repeat:repeat;
+    background-size:200px;
+    background-color: rgb(119, 142, 155);
+}
+
 .wf h1 {
-    font-family: 'BBH Sans Hegarty', 'Impact', 'Arial', sans-serif;
+    font-family: 'Lilita One', 'Impact', 'Arial', sans-serif;
     font-size: 3em;
     color:rgb(118, 85, 104);
     letter-spacing:5px;
 }
 
 .wf h2 {
-    font-family: 'BBH Sans Hegarty', 'Impact', 'Arial', sans-serif;
+    font-family: 'Lilita One', 'Impact', 'Arial', sans-serif;
 }
 
 .wf h3 {
-    font-family: 'BBH Sans Hegarty', 'Impact', 'Arial', sans-serif;
+    font-family: 'Lilita One', 'Impact', 'Arial', sans-serif;
     font-weight:200;
     color:rgb(84, 92, 105);
     letter-spacing:3px;
 }
 .wf p {
     font-family: 'Quicksand', 'Roboto', sans-serif;
+    color:rgb(59, 41, 77);
 }
 
 .questions {
