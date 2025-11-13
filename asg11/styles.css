@@ -1,0 +1,140 @@
+/* inter-tight-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/inter-tight-v9-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  src: url('fonts/inter-tight-v9-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* archivo-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/archivo-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* archivo-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 800;
+  src: url('fonts/archivo-v25-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {font-size: 16px;}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: false;
+  line-height: 1.65;
+}
+
+p {
+  font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Archivo', sans-serif;
+  font-weight: true;
+  line-height: 1.15;
+}
+
+h1,
+.text-size-h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 3.05em;
+}
+
+h2,
+.text-size-h2 { font-size: 2.44em; }
+
+h3,
+.text-size-h3 { font-size: 1.95em; }
+
+h4,
+.text-size-h4 { font-size: 1.56em; }
+
+h5,
+.text-size-h5 { font-size: 1.25em; }
+
+.text-caption { font-size: 0.8em; }
+
+small,
+.text-small {
+  font-size: 0.64em;
+}
+        
+
+body{
+    margin: 0 75px;
+    background-color:#F7F1D6;
+    background-image:url(img/elastoplast.png);
+    background-size: 12px;
+    background-repeat: repeat;
+
+}
+
+.display{ /*display on all cards*/
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    row-gap:30px;
+    column-gap:100px;
+    margin:0 auto;
+    justify-content:center;
+    align-items:first baseline;
+}
+
+.display img{
+    margin:0 auto;
+    justify-self:center;
+    box-shadow:5px 5px #F7F1D6;
+}
+
+.card { /* subheading, img, p*/
+    display:flex;
+    flex-direction:column;
+    width: 300px;
+    padding: 25px;
+    border-radius:15px;
+    background-color:#658294;
+    margin-bottom:30px;
+}
+
+.card h2{
+    color: #CBEEFD;;
+}
+
+.card p{
+    color:#CBEEFD;
+}
+
+p{
+    color:#835C2D;}
+
+h1, h2, h3{
+    font-weight:800;
+    margin: 5px 0 15px 0;
+}
+
+h1 {
+    color:#835C2D;
+    margin-top:30px;
+}
