@@ -101,7 +101,7 @@ header*/
 
 body{
     margin: 25px 60px 50px 60px;
-    background-color:rgb(154, 128, 104);
+    background-color:#9a8068;
     background-image: url('img/asfalt-dark.png');
     background-repeat:repeat;
     background-size:250px;
@@ -112,15 +112,15 @@ h1{
     line-height:65px;
     font-size:5em;
     letter-spacing: -2px;
-    color:rgb(0, 0, 0);
-    background-color:rgb(221, 200, 176);
+    color:#2b1f19;
+    background-color:#ddc8b0;
     padding: 15px 25px 25px 25px;
     width:fit-content;
     height:fit-content;
     margin-bottom:15px;
-    border: 3px solid black;
+    border: 3px solid #2b1f19;
     border-radius: 20px;
-    box-shadow: 8px 8px black;
+    box-shadow: 8px 8px #2b1f19;
 }
 
 .intro {
@@ -130,16 +130,18 @@ h1{
 }
 
 .text{
+  color:#2b1f19;
   display:flex;
   flex-direction: column;
 }
 
 h2 {
+  color:#2b1f19;
     margin: 0px 0px 5px 0px;
 }
 
 .intro p{
-  color:black;
+  color:#2b1f19;
     margin: 5px 0 0 0;
     line-height:20px;
 }
@@ -156,10 +158,10 @@ h2 {
 }
 
 .card{
-    border: 3px solid black;
+    border: 3px solid #2b1f19;
     border-radius: 20px;
-    box-shadow: 8px 8px black;
-    background-color:white;
+    box-shadow: 8px 8px #2b1f19;
+    background-color:#ffeedb;
     max-width: 320px;
     height: fit-content;
     padding: 30px;
@@ -171,37 +173,42 @@ h2 {
 
 .card a{
     font-weight: 600;
-    color:black;
+    color:#2b1f19;
     padding: 3px 12px;
-    border: 2px solid black;
+    border: 2px solid #2b1f19;
     border-radius: 15px;
     text-decoration:none;
+    background-color:#d1b59a;
 }
 
 .card a:hover{
     color:#000000;
     border: 2px solid #000000;
-    background-color:rgb(191, 191, 191);
+    background-color:#9a8068;
 
 }
 
 
 h3 {
     margin: 0;
+  color:#2b1f19;
 }
 
 h4 {
     font-size: 1.2em;
     font-weight: 600;
     margin: 10px 0 4px 0;
+  color:#2b1f19;
 }
 
 h5 {
     margin-top:25px;
     font-size:0.95em;
+  color:#2b1f19;
 }
 
 .card p{
     margin-top: 25px;
     line-height: 22px;
+  color:#2b1f19;
 }
